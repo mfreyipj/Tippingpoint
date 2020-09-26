@@ -8,7 +8,42 @@ body {
     font-family: Helvetica;
 }
 
+.button-container{
+  position: absolute;
+  right: 15vw;
+  top: vh;
+  /* align-items: end; */
+  /* margin-left: 45vw; */
+}
 
+header {width: 100%;height: 25vh;display: flex;background-color: #333333;position: absolute;color: white;}
+
+.first-class{align-items: center;justify-content: center;margin: 0 auto;padding-top: 50px;text-align: center;}
+
+form h5 {
+
+    font-size: 1rem;
+    margin-left: 85px;
+    margin-bottom: 30px
+}
+
+form {
+
+    width: 100%;
+
+
+}
+
+.filterBtn{
+  padding: 1vh;
+  margin-bottom: 1vh;
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+  /* position: absolute; */
+  /* right: 15vw; */
+}
 .outer-box{
   display: flex;
   width: 66vw;
@@ -31,6 +66,36 @@ body {
     border-radius: 5px;
 }
 
+.option-container{
+  position: absolute;
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  height: 20vh;
+  width: 100vw;
+}
+
+.option-row{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.option{
+  height: 7vh;
+  width: 15vw;
+  background-color : #03866D;
+}
+
+input{
+  width: 66vw;
+  border: none;
+  border-radius: 7px;
+  padding: 1vh;
+  margin: 1.5vh 0 0 0;
+  text-align: center;
+}
+
+
 
 footer{
   background-color: #03866D;
@@ -43,4 +108,10 @@ footer{
 .nav-element{
   width: 25vw;
   padding: 5vw;
+}
+
+.show{
+  display: flex;
+  position: absolute;
+  left: -24vw;
 }

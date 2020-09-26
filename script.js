@@ -11,5 +11,10 @@
     }
 
     function dropDownUser(){
-      document.getElementById("userMenuDropDown").cclassList.toggle("show");
+      document.getElementById("userMenuDropDown").classList.toggle("show");
+    }
+
+    function dropdownFilters(){
+
+      document.getElementById("filterDropdown").classList.toggle("show");
     }
