@@ -13,123 +13,34 @@
     </head>
     <body>
 
-      <nav>
-          <!--DropdownContainer-->
-          <div class="dropdown navElement">
 
-              <!--Hamburger Button, bei Klick wird Dropdown dargestellt-->
-              <button id="hamburgerButton" onclick="dropDownHamburger()"class="dropdownbtn hamburger hamburger--slider" type="button">
-                  <span class="hamburger-box">
-                      <span class="hamburger-inner"></span>
-                  </span>
-              </button>
+   <div class="outer-box">
+     <div class="inner-box">
 
-              <!--Container für die Elemente der Navbar, in der Desktopvariante klassisch dargestellt-->
-              <div class="dropdown-content" id="myDropdown">
+     </div>
+     <div class="inner-box">
 
+     </div>
+   </div>
 
+   <footer>
+     <div class="nav-element">
+       Create
+     </div>
+     <div class="nav-element">
+       Dashboard
+     </div>
+     <div class="nav-element">
+       <a href="#">Home</a>
+     </div>
 
-                  <!--Linkliste-->
-                  <ul>
-
-                      <li><span><a href="#" class="active">Home</a></span></li>
-                      <li><span><a href="#">Discover</a></span></li>
-                      <!-- <li><span><a href="#">Projekte und Inhalte</a></span>
-                      </li> -->
-                      <li><!--GSV Logo (nur für den Desktop relevant)-->
-
-                      <li><span><a href="#">Create</a></span></li>
-                      <li><span><a href="#">Settings</a></span></li>
-
-                  </ul>
-              </div>
+     <div class="nav-element">
+       Settings
+     </div>
 
 
-          </div>
 
-          <!--Name der aktuellen Seite mittig in der Navbar (Tablet&Smartphone)-->
-          <div class="navElement hiddenOnDesktop">
-              <h3>Start</h3>
-          </div>
-
-          <!--GSV Logo Rechts oben in der Navbar (Tablet & Smartphone)-->
-          <div class="navElement divLogoNav">
-              <!--GSV Logo-->
-              <!-- <img class="logonav" id="logomobile" src="IMG/gsvGemontLogoWeissTransparent.png" alt="gemontlogo"> -->
-          </div>
-
-          <!--Container des Timerbanners-->
-          <div class="timerbanner">
-              <!--Timer im Timerbanner-->
-              <div id="timerdesktop"><?php echo gsvAppointmentAlert($Connection); ?></div>
-          </div>
-          <!-- <div class="searchbar-container">
-            <form class="searchNavTop" action="Veranstaltungen.php" method="get" id="searchform">
-
-              <input class="searchInput" type="text" name="Search" value="" placeholder="Suche nach Posts" autocomplete="off">
-              <button form="searchform"type="submit" name="submitSearch" class="searchbarSubmit"><i class= ' fas fa-search '></i> </button>
-
-            </form>
-
-          </div> -->
-      </nav>
-        <!-- <nav>
-            <img src="./img/tippintpoint (1).png" alt="logo">
-
-            <ul>
-                <li class="item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-
-                <li class="item"><a href="#"><i class="fa fa-user"></i> Donation <i class="fa fa-angle-down"></i></a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">Donation</a></li>
-                            <li><a href="#">Projects</a></li>
-
-
-                            </a></li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li class="item"><a href="#"><i class="fa fa-clone"></i> Organizations <i class="fa fa-angle-down"></i></a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">Ngo's</a></li>
-
-                            </li>
-                            <li class="hover-me"><a href="#">Political Movements</a>
-                            <li class="hover-me"><a href="#">Activist</a>
-
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="item"><a href="#"><i class="fa fa-users"></i> Partnerships</a></li>
-                <li class="item"><a href="#"><i class="fa fa-phone"></i> Contact</a></li>
-            </ul>
-        </nav> -->
-
-
-        <div class="banner">
-
-
-            <div class="info">
-                <div class="info-icon">i</div>
-                <div class="info-text">
-                    <div class="info-description">Donate here!</div>
-                    <img src="./images/smily.png" alt="smily">
-                </div>
-            </div>
-
-        </div>
-
-  <form class="" action="index.html" method="post">
-     <label for="amount">You want to donate </label>
-     <input type="number" name="amount" value="" placeholder="0.50€">
-     <span>to FridaysForFuture to help them to _ (finance their campaigns e.g.)</span>
-     <input type="submit" name="submit" value="Donate">
-   </form>
-
+   </footer>
 
     </body>
     <script src="script.js" charset="utf-8"></script>
