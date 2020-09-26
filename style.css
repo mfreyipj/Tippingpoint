@@ -1,0 +1,10 @@
+form{
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  margin: 33vh auto;
+}
+
+form *{
+  margin: 0.5vh 0; 
+}
