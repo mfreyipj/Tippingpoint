@@ -8,219 +8,32 @@ body {
     font-family: Helvetica;
 }
 
-/*Schriftart und Eliminierung von ungewollten Margins und Paddings*/
-*{
 
-    margin:0;
-    padding:0;
-    font-family: "Open Sans", sans-serif;
-    box-sizing: border-box;
-    color: #444;
+.outer-box{
+  display: flex;
+  width: 66vw;
+  margin: auto;
+  justify-content: space-around;
 }
 
-.hiddenOnMobile{
-    display:none !important;
-    position: absolute !important;
-}
+.inner-box{
+  border-radius: 5px;
+  background-color: #03866D;
+  width: 50px;
+  height: 100px;
 
-
-/*Bookmark top*/
-
-#sanfang{
-    visibility: hidden;
-    position: absolute;
-}
-
-/******************************/
-/************Navbar***********/
-
-
-/*mobile-navigation*/
-nav{
-    width:100%;
-    background-color: #fff;
-    height:3.3em;
-
-    /*Funktion: flex für nav-elemente*/
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    /*Funktion: oben hängen bleiben*/
-    position: sticky;
-    position: -webkit -sticky;
-    top:0;
-    z-index: 10;
-    margin: 0;
-}
-.navElement{
-    width: 33.3333%;
-}
-
-/*Liste der Dropdown-Links*/
-nav ul{
-    list-style-type: none;
-    /*Funktion: flex zur einfacheren Bedienbarkeit*/
-    display:flex;
-    flex-direction: column;
-    margin: 0;
 }
 
 
-/*Links des Dropdown-Menüs*/
-nav ul li a{
-    text-decoration: none;
-    color:#444;
-    display:block;
-    padding:2vh 0;
-    text-align: center;
+footer{
+  background-color: #03866D;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
 }
 
-/*Effekt beim Hovern über einen Link*/
-nav ul li a:hover{
-    background-color: #D9391C;
-    color: #777;
-    text-decoration: none;
-}
-nav ul li:active{
-  color: #fff;
-  text-decoration: none;
-}
-
-/*Überschrift der aktuellen Seite*/
- nav h3{
-    color:#444;
-    font-weight:normal;
-    text-align: center;
-    margin: 0.7em 0 0 0;
-    font-size: 1.25rem;
-    /* transform: translateY(-50%); */
-}
-
-
-.divLogoNav{
-  text-align: right;
-}
-
-/*GeMont-Logo oben rechts*/
-.logonav{
-    margin-top: 0.7em;
-        height: 1.8em;
-}
-#logodesktop{
-    display: none;
-    position: absolute;
-}
-
-/*Container aller dropdown-Elemente*/
-.dropdown{
-    position: relative;
-    display:inline-block;
-
-}
-
-/*Button der das Dropdown-Menü öffnet*/
-.hamburger {
-  padding: 15px 15px 8.5px 15px;
-  display: inline-block;
-  cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
-  color: white;
-  text-transform: none;
-  background-color: transparent;
-  border: 0;
-  margin: 0;
-  height: 3.3em;
-  overflow: visible;
-}
-
-/*Effekt beim hovern über den Hamburger*/
-.hamburger:hover {
-    opacity: 0.7;
-}
-
-/*Äußere Hamburger-Span*/
-.hamburger-box {
-  width: 40px;
-  height: 24px;
-  display: inline-block;
-  position: relative;
-}
-
-/*Innere Hamburger-Span*/
-.hamburger-inner {
-  display: block;
-  top: 50%;
-  margin-top: -2px;
-}
-
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
-    height: 4px;
-    background-color: #444;
-    border-radius: 4px;
-    position: absolute;
-    transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease;
-}
-.hamburger-inner::before, .hamburger-inner::after {
-    content: "";
-    display: block;
-}
-.hamburger-inner::before {
-    top: -10px;
-}
-.hamburger-inner::after {
-    bottom: -10px; }
-
-/*****Hamburgereffekt****/
-.hamburger--slider .hamburger-inner {
-    top: 2px;
-}
-
-.hamburger--slider .hamburger-inner::before {
-    top: 10px;
-    transition-property: transform, opacity;
-    transition-timing-function: ease;
-    transition-duration: 0.15s;
-}
-
-.hamburger--slider .hamburger-inner::after {
-    top: 20px;
-}
-
-.hamburger--slider.is-active .hamburger-inner {
-  transform: translate3d(0, 10px, 0) rotate(45deg);
-}
-
-.hamburger--slider.is-active .hamburger-inner::before {
-    transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
-    opacity: 0;
-}
-
-.hamburger--slider.is-active .hamburger-inner::after {
-    transform: translate3d(0, -20px, 0) rotate(-90deg);
-}
-/***************/
-
-/*Inhalt des Dropdowns*/
-.dropdown-content{
-    position: absolute;
-    display:none;
-    width: 20em;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 10;
-    margin: 0;
-
-}
-
-/*Styling des sichtbaren Dropdowns*/
-.show {
-
-    display:block;
-    background-color: #fff;
+.nav-element{
+  width: 25vw;
+  padding: 5vw;
 }
