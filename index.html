@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
-  </head>
-  <body>
-   <form class="" action="index.html" method="post">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav>
+            <img src="./img/tippintpoint (1).png" alt="logo">
+
+            <ul>
+                <li class="item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+
+                <li class="item"><a href="#"><i class="fa fa-user"></i> Donation <i class="fa fa-angle-down"></i></a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Donation</a></li>
+                            <li><a href="#">Projects</a></li>
+                
+
+                            </a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="item"><a href="#"><i class="fa fa-clone"></i> Organizations <i class="fa fa-angle-down"></i></a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Ngo's</a></li>
+                            
+                            </li>
+                            <li class="hover-me"><a href="#">Political Movements</a>
+                            <li class="hover-me"><a href="#">Activist</a>
+                        
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="item"><a href="#"><i class="fa fa-users"></i> Partnerships</a></li>
+                <li class="item"><a href="#"><i class="fa fa-phone"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="banner">
+
+
+            <div class="info">
+                <div class="info-icon">i</div>
+                <div class="info-text">
+                    <div class="info-description">Donate here!</div>
+                    <img src="./images/smily.png" alt="smily">
+                </div>
+            </div>
+
+        </div>
+
+  <form class="" action="index.html" method="post">
      <label for="amount">You want to donate </label>
      <input type="number" name="amount" value="" placeholder="0.50€">
      <span>to FridaysForFuture to help them to _ (finance their campaigns e.g.)</span>
      <input type="submit" name="submit" value="Donate">
    </form>
-  </body>
+        
+
+    </body>
 </html>
