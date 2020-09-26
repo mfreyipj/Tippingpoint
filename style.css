@@ -18,10 +18,17 @@ body {
 
 .inner-box{
   border-radius: 5px;
+  margin-left: 2vw;
+  margin-right: 2vw;
   background-color: #03866D;
-  width: 50px;
-  height: 100px;
+  width: 160px;
+  height: 100px;;
+}
 
+.image-format{
+    width: 160px;
+    height: 100px;
+    border-radius: 5px;
 }
 
 
