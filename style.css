@@ -204,6 +204,14 @@ h5.align-h3 {
   height: 100px;;
 }
 
+.image-resizer{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
 .image-format{
     width: 160px;
     height: 100px;
