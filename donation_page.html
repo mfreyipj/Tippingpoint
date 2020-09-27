@@ -21,59 +21,83 @@
      <h3>Your donation</h3>
 
     </div>
-    <div class="most-popular-box">
-    
-      <div class="content">
-          <h2>Your Donation</h2>
-          <div class="mp-info">
-              <h2><center>Fridays for Future</center></h2>
-              <input type="number" id="quantity" name="quantity" value="0.5" min="1" max="5">
-              <img src="./img/fff.jpg">
-              <center><a href="https://www.w3schools.com/tags/att_a_href.asp">How it works</a></center>
-          </div>  
+    <div class="wrapper">
+      <div class="most-popular-box">
+
+        <div class="content">
+            
+            <div class="mp-info">
+                <h2><center>Fridays for Future</center></h2>
+                <input type="number" id="quantity" name="quantity" value="0.5" min="1" max="5">
+                <img src="./img/fff.jpg">
+                <center><a href="https://www.w3schools.com/tags/att_a_href.asp">How it works</a></center>
+            </div>
+        </div>
       </div>
+
+        <div class="form-container">
+          <form class="phoneNumForm" action="index.html" method="post">
+
+            <select class="" name="prefix" id="prefixInput" class="selectPrefix">
+              <option value="+49">+49</option>
+              <option value="+33">+33</option>
+              <option value="+17">+17</option>
+            </select>
+            <input type="number" name="phoneNumber" value="" placeholder="Your number">
+            <input type="submit" name="" value="OK" class="submitNum">
+          </form>
+        </div>
+
+        <div id="swipezone">
+          <span id ="swipeSpan" style="transform:translateX(0);">Pay now</span>
+        </div>
     </div>
 
-      <div class="form-container">
-        <form class="phoneNumForm" action="index.html" method="post">
-
-          <select class="" name="prefix" id="prefixInput" class="selectPrefix">
-            <option value="+49">+49</option>
-            <option value="+33">+33</option>
-            <option value="+17">+17</option>
-          </select>
-          <input type="number" name="phoneNumber" value="" placeholder="Your number">
-          <input type="submit" name="" value="OK" class="submitNum">
-        </form>
-      </div>
-
-      <div id="swipezone">
-        <span id ="swipeSpan" style="transform:translateX(0);">Pay now</span>
-      </div>
 
 
 
 
-      <footer>
+    <footer>
+      <a href="#">
         <div class="nav-element">
-          <img src="https://img.icons8.com/fluent-systems-regular/32/000000/home.png" width="40" height="40"/>Home
+
+          <img src="https://img.icons8.com/fluent-systems-regular/32/000000/home.png"  class="nav-icon"/>
+          <span class="navSpan">Home</span>
         </div>
+      </a>
+      <a href="index.html">
         <div class="nav-element">
-          <img src="https://img.icons8.com/pastel-glyph/64/000000/search--v1.png" width="40" height="40"/>Search
+          <img src="https://img.icons8.com/pastel-glyph/64/000000/search--v1.png" class="nav-icon"/>
+          <span class="navSpan">Search</span>
         </div>
+      </a>
+      <a href="donation_page.html">
         <div class="nav-element">
-          <a href="#"></a><img src="https://img.icons8.com/ios/50/000000/connectivity-and-help.png" width="40" height="40"/>Donate
+          <img src="https://img.icons8.com/ios/50/000000/connectivity-and-help.png" class="nav-icon"/>
+          <span class="navSpan">Donate</span>
         </div>
-   
+      </a>
+      <a href="#">
+       <div class="nav-element">
+         <img src="https://img.icons8.com/wired/50/000000/services.png" class="nav-icon"/>
+         <span class="navSpan">Settings</span>
+       </div>
+      </a>
+      <a href="#">
         <div class="nav-element">
-          <img src="https://img.icons8.com/wired/50/000000/services.png" width="40" height="40"/>Settings
+         <img src="https://img.icons8.com/pastel-glyph/64/000000/person-male.png"  class="nav-icon"/>
+         <span class="navSpan">Profile</span>
         </div>
-        <div class="nav-element">
-         <img src="https://img.icons8.com/pastel-glyph/64/000000/person-male.png" width="40" height="40"/>Profile
-        </div>
-   
-   
-      </footer>
+      </a>
+
+
+
+
+
+
+
+
+    </footer>
 
     </body>
     <script src="script.js" charset="utf-8"></script>

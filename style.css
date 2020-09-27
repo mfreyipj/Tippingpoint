@@ -223,6 +223,13 @@ form {
   margin-top: 6vh;
 }
 
+.nav-icon{
+  height:2vh;
+  width:2vh;
+}
+
+
+
 #swipezone span{
   display: block;
   background-color: #03866D;
@@ -283,9 +290,21 @@ footer{
 
 .nav-element{
   width: 20vw;
-  padding: 5vw;
+  padding: 2vw;
+  text-align: center;
 }
 
+.navSpan{
+  width:100%;
+  text-align: left;
+  color: white;
+}
+
+.arrowBack{
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+}
 .show{
   display: flex;
   position: absolute;
