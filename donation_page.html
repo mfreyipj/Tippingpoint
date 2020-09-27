@@ -8,7 +8,9 @@
         <title>My Portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
+    </head>
 
     </head>
     <body>
@@ -25,12 +27,22 @@
       <div class="most-popular-box">
 
         <div class="content">
-            
+
             <div class="mp-info">
                 <h2><center>Fridays for Future</center></h2>
-                <input type="number" id="quantity" name="quantity" value="0.5" min="1" max="5">
+                <div class="amountControl">
+                  <div class="amountBox">
+                    <span id="aSpan" class="amountSpan">0.85€</span>
+                  </div>
+
+                  <div class="amountArrows">
+                    <button type="button" name="button" class="arrowBtn" onclick="increaseAmount()"><i class="fas fa-sort-up"></i></button>
+                    <button type="button" name="button" class="arrowBtn" onclick="decreaseAmount()"><i class="fas fa-sort-down"></i></button>
+                  </div>
+                </div>
+                <!-- <input type="number" id="quantity" name="quantity" value="0.5" min="1" max="5"> -->
                 <img src="./img/fff.jpg">
-                <center><a href="https://www.w3schools.com/tags/att_a_href.asp">How it works</a></center>
+                <!-- <center><a href="https://www.w3schools.com/tags/att_a_href.asp">How it works</a></center> -->
             </div>
         </div>
       </div>
@@ -80,7 +92,7 @@
       <a href="#">
        <div class="nav-element">
          <img src="https://img.icons8.com/wired/50/000000/services.png" class="nav-icon"/>
-         <span class="navSpan">Settings</span>
+         <span  class="navSpan">Settings</span>
        </div>
       </a>
       <a href="#">
@@ -101,4 +113,5 @@
 
     </body>
     <script src="script.js" charset="utf-8"></script>
+    <script src="arrowScript.js" charset="utf-8"></script>
 </html>
