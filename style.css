@@ -120,6 +120,18 @@ form {
     color: #ffffff;
 }
 
+.mp-info h5 {
+    width: 70%;
+    left: 45px;
+    text-align: left;
+    font-size: 27px;
+    padding: 10px;
+    font-weight: 200;
+    z-index: 3;
+    position: relative;
+    color: #ffffff;
+}
+
 .mp-info h6 {
     width: 70%;
     left: 45px;
@@ -281,7 +293,7 @@ footer{
 }
 
 .form-container{
-
+    padding-top: 50px;
 }
 
 .goalsAndProgress-container{
