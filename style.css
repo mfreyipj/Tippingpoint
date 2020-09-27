@@ -57,6 +57,7 @@ form {
 }
 
 .content {
+    margin: auto;
     margin-top: 20px;
     margin-left: 65px;
     width: 70%;
@@ -104,8 +105,8 @@ form {
 
 .mp-info img {
     border-radius: 20px;
-    height: 140px;
-    width: 290px;
+    height: 100%;
+    width: 100%;
     filter: brightness(20%);
     position: absolute;
     left: 0;
@@ -126,7 +127,7 @@ form {
 
 .outer-box{
   position: relative;
-  top: 30vh;
+  /* top: 30vh; */
   display: flex;
   width: 66vw;
   margin: auto;
