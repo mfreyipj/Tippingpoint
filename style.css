@@ -73,8 +73,8 @@ form {
 
 .mp-info {
     position: relative;
-    overflow: hidden;  
-    padding-bottom: 10px;  
+    overflow: hidden;
+    padding-bottom: 10px;
 }
 
 .mp-info h2 {
@@ -104,8 +104,8 @@ form {
 
 .mp-info img {
     border-radius: 20px;
-    height: 140px; 
-    width: 290px; 
+    height: 140px;
+    width: 290px;
     filter: brightness(20%);
     position: absolute;
     left: 0;
