@@ -28,10 +28,21 @@ form h5 {
 }
 
 form {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.16), 0 0 0 1px rgba(0, 0, 0,0.08);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.16), 0 0 0 1px rgba(0, 0, 0,0.08);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.16), 0 0 0 1px rgba(0, 0, 0,0.08);
+  margin-left: 10vw;
+  border-radius: 5px;
+}
 
-    width: 100%;
-
-
+#prefixInput{
+  width: 15vw;
+  border: none;
+  border-right: 1px solid #ddd;
+  padding-left: 0.5vw;
 }
 
 .filterBtn{
@@ -52,6 +63,7 @@ form {
     width: 70%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3vh;
 }
 
 .mp-title {
@@ -74,7 +86,7 @@ form {
     width: 100px;
   }
 
-  
+
 .outer-box{
   position: relative;
   top: 30vh;
@@ -97,6 +109,33 @@ form {
     width: 160px;
     height: 100px;
     border-radius: 5px;
+}
+
+#swipezone{
+  width: 80vw;
+  border-radius: 40px;
+  height: 8vh;
+  text-align: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.16), 0 0 0 1px rgba(0, 0, 0,0.08);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.16), 0 0 0 1px rgba(0, 0, 0,0.08);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0,0.16), 0 0 0 1px rgba(0, 0, 0,0.08);
+  color: #444;
+  cursor: pointer;
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 6vh;
+}
+
+#swipezone span{
+  display: block;
+  background-color: #03866D;
+  border-radius: 15px;
+  color: #fff;
+  padding: 1vh 8vw;
+  margin-left: 4vw;
+  /* transform: translateX(110%); */
 }
 
 .option-container{
@@ -124,11 +163,20 @@ input{
   border: none;
   border-radius: 7px;
   padding: 1vh;
-  margin: 1.5vh 0 0 0;
+
   text-align: center;
 }
 
+.submitNum{
+  background-color:  #03866D;
+  color: #fff;
+  width: 15vw;
 
+}
+.selectPrefix{
+  background-color: #ddd;
+
+}
 
 footer{
   background-color: #03866D;
@@ -147,4 +195,8 @@ footer{
   display: flex;
   position: absolute;
   left: -24vw;
+}
+
+.form-container{
+
 }
