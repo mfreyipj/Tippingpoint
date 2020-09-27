@@ -56,7 +56,7 @@
               swipeSpan.style.transform = "translateX(+" + Math.round(transformDist) + "px)";
             }
             else{
-              window.location.href = "http://www.w3schools.com";
+              window.location.href = "http://tippingpoint.infinityfreeapp.com/mobilemenu/confirmation.html";
             }
 
         }, false)
