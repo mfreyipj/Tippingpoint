@@ -3,6 +3,7 @@
 # Tippingpoint Web-App - //SLASH Hackathon 2021
 
 Very basic Front-End of a web-app for phone-billed microdonations (HTML, CSS, JS).
+Created within 24 hours by a team of 4 complete beginners and 1 intermediate web-dev.
 
 http://tippingpoint.infinityfreeapp.com/
 
